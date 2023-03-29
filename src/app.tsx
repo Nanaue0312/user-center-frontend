@@ -23,6 +23,7 @@ export const initialStateConfig = {
 export const request: RequestConfig = {
   timeout: 100000,
 };
+console.log(process.env.NODE_ENV);
 
 /**
  * @see  https://umijs.org/zh-CN/plugins/plugin-initial-state
