@@ -17,7 +17,7 @@ import { stringify } from 'querystring';
 // });
 const request = extend({
   credentials: 'include', // 默认请求是否带上cookie
-  prefix: process.env.NODE_ENV === 'production' ? 'http://121.41.96.10:8000' : undefined,
+  prefix: process.env.NODE_ENV === 'production' ? 'http://121.41.96.10:8080' : undefined,
   // requestType: 'form',
 });
 
