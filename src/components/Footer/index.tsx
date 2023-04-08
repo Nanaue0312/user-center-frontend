@@ -9,12 +9,6 @@ const Footer: React.FC = () => {
       copyright={`${currentYear} ${defaultMessage}`}
       links={[
         {
-          key: 'Ant Design Pro',
-          title: 'Ant Design Pro',
-          href: 'https://pro.ant.design',
-          blankTarget: true,
-        },
-        {
           key: 'Github',
           title: <GithubOutlined />,
           href: GITHUB_LINK,
@@ -24,6 +18,12 @@ const Footer: React.FC = () => {
           key: 'Planet',
           title: '知识星球',
           href: 'https://wx.zsxq.com/dweb2/index/group/51122858222824',
+          blankTarget: true,
+        },
+        {
+          key: 'ICP',
+          title: '浙ICP备2023008633号-1',
+          href: 'https://beian.miit.gov.cn/',
           blankTarget: true,
         },
       ]}
